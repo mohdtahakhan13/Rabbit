@@ -1,16 +1,21 @@
+
 {
-    "version":2,
-    "builds":[
-        {
-            "src":"package.json",
-            "use":"@vercel/static-build",
-            "config":{"distDir":"dist"}
+    "version": 2,
+    "builds": [
+      {
+        "src": "frontend/ecommerce/package.json",
+        "use": "@vercel/static-build",
+        "config": {
+          "distDir": "frontend/ecommerce/dist",
+          "installCommand": "cd frontend/ecommerce && npm install",
+          "buildCommand": "cd frontend/ecommerce && npm run build"
         }
+      }
     ],
-    "rewrites":[
-        {
-            "source":"/(.*)",
-            "destination":"/"
-        }
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "frontend/ecommerce/dist/$1"
+      }
     ]
-}
+  }
