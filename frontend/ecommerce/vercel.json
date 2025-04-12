@@ -1,4 +1,3 @@
-
 {
     "version": 2,
     "builds": [
@@ -6,16 +5,14 @@
         "src": "frontend/ecommerce/package.json",
         "use": "@vercel/static-build",
         "config": {
-          "distDir": "frontend/ecommerce/dist",
-          "installCommand": "cd frontend/ecommerce && npm install",
-          "buildCommand": "cd frontend/ecommerce && npx vite build"
+          "distDir": "dist"
         }
       }
     ],
     "routes": [
       {
         "src": "/(.*)",
-        "dest": "/dist/$1"
+        "dest": "/$1"
       }
     ]
   }
