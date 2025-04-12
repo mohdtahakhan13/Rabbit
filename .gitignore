@@ -1,0 +1,12 @@
+#logs
+logs
+*.logs
+
+#node modules
+frontend/ecommerce/node_modules/
+backend/node_modules/
+
+#environment variables
+frontend/ecommerce/.env
+backend/.env
+
