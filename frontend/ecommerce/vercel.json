@@ -8,14 +8,14 @@
         "config": {
           "distDir": "frontend/ecommerce/dist",
           "installCommand": "cd frontend/ecommerce && npm install",
-          "buildCommand": "cd frontend/ecommerce && npm run build"
+          "buildCommand": "cd frontend/ecommerce && npx vite build"
         }
       }
     ],
     "routes": [
       {
         "src": "/(.*)",
-        "dest": "frontend/ecommerce/dist/$1"
+        "dest": "/dist/$1"
       }
     ]
   }
