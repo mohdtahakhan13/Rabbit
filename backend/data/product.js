@@ -210,7 +210,7 @@ const products = [
     gender: "Men",
     images: [
       {
-        url: "https://th.bing.com/th/id/OIP.UefyfFgKa_DsyFfnjBSBxQHaM4?w=189&h=329&c=7&r=0&o=5&dpr=1.3&pid=1.7",
+        url: "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSo4Av9IF0-JTtTPT23T0vFQ098nNgwAJTTZQC5hbWGNelZBfGG4zXP0k_fh7GjGQfJgA_S_sV8L4GzSaFuvE1I4STJiHkNBSfM6DCER_M",
         altText: "Regular-Fit Henley Shirt Front View",
       },
     ],
@@ -258,7 +258,7 @@ const products = [
     gender: "Men",
     images: [
       {
-        url: "https://th.bing.com/th/id/OIP.tI7Rqo4QwFS5_dedjK6LewHaJo?rs=1&pid=ImgDetMain",
+        url: "data:image/jpeg;base64,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",
         altText: "V-Neck Classic T-Shirt Front View",
       },
     ],
@@ -690,7 +690,7 @@ const products = [
     gender: "Women",
     images: [
       {
-        url: "Stretch Denim Shorts",
+        url: "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcR2sqQrX2x-PnPqtntiSbfCDF2cPpUVK_ddj1wg-1GSkOudjn12FKHuJQv-ligRcMvz6qlYISfwe7ePQuU6JY0xiHvLucy5v8TGXhVHnPD8",
         altText: "Stretch Denim Shorts Front View",
       },
     ],
@@ -882,7 +882,7 @@ const products = [
     gender: "Women",
     images: [
       {
-        url: "Graphic Print Tee",
+        url: "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRnKOlTidwtH-J2fgbmSpa-DxwtPZkNJf9llkf9oxxzlahE1MJbeNLjVRzPfeTWHCR8vDSItG0ksT5rOfHvr0EWjCedRdANZLuw2n6h8cs",
         altText: "Graphic Print Tee",
       },
     ],
@@ -978,7 +978,7 @@ const products = [
     gender: "Women",
     images: [
       {
-        url: "https://content.roman.co.uk/images/original/7a772b77-8e95-4317-8c11-e5194912a22b.jpg",
+        url: "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQfrRgqYhdQqvwasyRtHayjnpd5WTyxglsMyQmqxukxxmRHnQ7wji1KFmg6EGfPaemXslmukm12CSmDuiQNpMmHLai23rs0r7V7Xel1VoHb4nwD-8c1bSITxg",
         altText: "V-Neck Wrap Top",
       },
     ],
